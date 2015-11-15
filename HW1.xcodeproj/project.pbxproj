@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF2510581BCCE80100305AEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF2510571BCCE80100305AEF /* main.cpp */; };
+		EF2510611BCCE82200305AEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF25105E1BCCE82200305AEF /* main.cpp */; settings = {ASSET_TAGS = (); }; };
+		EF2510621BCCE82200305AEF /* RGBpixmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF25105F1BCCE82200305AEF /* RGBpixmap.cpp */; settings = {ASSET_TAGS = (); }; };
+		EF2510651BCCE83800305AEF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2510631BCCE83800305AEF /* GLUT.framework */; };
+		EF2510661BCCE83800305AEF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2510641BCCE83800305AEF /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,11 @@
 
 /* Begin PBXFileReference section */
 		EF2510541BCCE80100305AEF /* HW1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW1; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF2510571BCCE80100305AEF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF25105E1BCCE82200305AEF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF25105F1BCCE82200305AEF /* RGBpixmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RGBpixmap.cpp; sourceTree = "<group>"; };
+		EF2510601BCCE82200305AEF /* RGBpixmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBpixmap.h; sourceTree = "<group>"; };
+		EF2510631BCCE83800305AEF /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EF2510641BCCE83800305AEF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2510651BCCE83800305AEF /* GLUT.framework in Frameworks */,
+				EF2510661BCCE83800305AEF /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,8 @@
 		EF25104B1BCCE80100305AEF = {
 			isa = PBXGroup;
 			children = (
+				EF2510631BCCE83800305AEF /* GLUT.framework */,
+				EF2510641BCCE83800305AEF /* OpenGL.framework */,
 				EF2510561BCCE80100305AEF /* HW1 */,
 				EF2510551BCCE80100305AEF /* Products */,
 			);
@@ -57,7 +68,9 @@
 		EF2510561BCCE80100305AEF /* HW1 */ = {
 			isa = PBXGroup;
 			children = (
-				EF2510571BCCE80100305AEF /* main.cpp */,
+				EF25105E1BCCE82200305AEF /* main.cpp */,
+				EF25105F1BCCE82200305AEF /* RGBpixmap.cpp */,
+				EF2510601BCCE82200305AEF /* RGBpixmap.h */,
 			);
 			path = HW1;
 			sourceTree = "<group>";
@@ -118,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2510581BCCE80100305AEF /* main.cpp in Sources */,
+				EF2510621BCCE82200305AEF /* RGBpixmap.cpp in Sources */,
+				EF2510611BCCE82200305AEF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
